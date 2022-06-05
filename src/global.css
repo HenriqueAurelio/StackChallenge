@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: theme('colors.richBlack');
+    color:theme('colors.platinum');
+}
+
+html,body,#root{
+    height:100%;
+}
+
