@@ -26,6 +26,8 @@ export function Signup({ signInUser }) {
             signInUser(res.data)
         },
         initialValues: {
+            name: '',
+            username: '',
             email: '',
             password: ''
         },
@@ -36,8 +38,6 @@ export function Signup({ signInUser }) {
         <div className="flex flex-col h-full justify-center p-12 space-y-6">
             <h1 className="text-3xl text-white">Crie sua conta</h1>
             <form className="space-y-6" onSubmit={formik.handleSubmit} >
-
-
                 <div className="space-y-2">
                     <Input
                         name="name"
