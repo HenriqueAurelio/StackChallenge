@@ -40,7 +40,7 @@ export function Login({ signInUser }) {
                         <div className="space-y-2">
                             <Input
                                 name="email"
-                                placeholder="Email"
+                                placeholder="E-mail"
                                 value={formik.values.email}
                                 type="text"
                                 onChange={formik.handleChange}
