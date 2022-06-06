@@ -41,7 +41,7 @@ export function Signup({ signInUser }) {
                 <div className="space-y-2">
                     <Input
                         name="name"
-                        placeholder="name"
+                        placeholder="Nome"
                         value={formik.values.name}
                         type="text"
                         onChange={formik.handleChange}
@@ -53,7 +53,7 @@ export function Signup({ signInUser }) {
                 <div className="space-y-2">
                     <Input
                         name="username"
-                        placeholder="username"
+                        placeholder="Nome de usuário"
                         value={formik.values.username}
                         type="text"
                         onChange={formik.handleChange}
@@ -68,7 +68,7 @@ export function Signup({ signInUser }) {
                 <div className="space-y-2">
                     <Input
                         name="email"
-                        placeholder="Email"
+                        placeholder="E-mail"
                         value={formik.values.email}
                         type="text"
                         onChange={formik.handleChange}
